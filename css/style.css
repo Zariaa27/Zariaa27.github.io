@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=East+Sea+Dokdo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
 
 body {
     font-family: 'Roboto', sans-serif;
@@ -35,7 +36,7 @@ body {
 }
 .yt_channel {
     text-decoration: none;
-    color: rgb(238, 255, 0);
+    color: darkgreen;
 }
 body {
     margin: 0;
@@ -54,4 +55,33 @@ h2 {
 .partners {
   text-align: center;
   margin-top: 10px;
+}
+.jumbo {
+    color: #333;
+    margin-left: 300px;
+    margin-right: 300px;
+    border-radius: 20px;
+    background-color: #b0b0b0;
+}
+.modal-title {
+    color: #333;
+}
+.modal-body {
+    color: #333;
+}
+.btn-center {
+    margin: 0;
+    position: absolute;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+.nav-logo {
+    font-family: 'Audiowide', cursive;
+}
+footer {
+    text-align: center;
+    margin-top: 100px;
 }
